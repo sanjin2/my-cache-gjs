@@ -7,6 +7,10 @@ my-cache-gjs   缓存工具，简短，精悍防止内存泄漏
 
 ## 安装下载
 
+- 下载地址 https://github.com/sanjin2/my-cache-gjs/releases
+- `npm i my-cache-gjs`
+- CDN http://unpkg.com/my-cache-gjs/release/bundle.js
+
 ## 快速使用
 
 简单接入文档

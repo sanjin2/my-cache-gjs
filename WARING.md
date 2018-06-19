@@ -22,3 +22,20 @@ Logged in as sanjin2 on https://registry.npmjs.org/.
 相关blog
 https://zhidao.baidu.com/question/1945763867802165628.html
 https://blog.csdn.net/rushichunqiu/article/details/80497573
+
+# npm 提交版本
+npm add user
+npm login
+npm publish .
+
+# releases
+## 创建名为 v0.0.1的tag
+git tag -a 'v0.0.1' -m 'first version'
+## 将当前分支提交到 v0.0.1 tag
+git push origin v0.0.1
+
+# 拉分支
+git checkout -b dev
+git branch
+
+
