@@ -1,5 +1,5 @@
 # my-cache-gjs
-my-cache-gjs   缓存工具，简短，精悍防止内存泄漏
+my-cache-gjs   缓存工具，简短，精悍防止内存泄漏 https://sanjin2.github.io
 
 ## 简介
 
@@ -13,6 +13,13 @@ my-cache-gjs   缓存工具，简短，精悍防止内存泄漏
 
 ## 快速使用
 
+```js
+	var FC = window.FastCache;
+			var cache = new FC();
+			cache.set('a',100);
+			alert(cache.get('a'));
+```
+
 简单接入文档
 
 - [使用文档](./doc/use/README.md)
@@ -20,7 +27,8 @@ my-cache-gjs   缓存工具，简短，精悍防止内存泄漏
 
 ## 交流 & 提问
 
-https://github.com/sanjin2/my-cache-gjs/issues
+- 提问： https://github.com/sanjin2/my-cache-gjs/issues
+-QQ 群
 
 ## 关于作者
 

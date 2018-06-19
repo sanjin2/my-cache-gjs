@@ -38,4 +38,12 @@ git push origin v0.0.1
 git checkout -b dev
 git branch
 
+# 合并分支
+git checkout master
+git merge dev
+git push origin master
+
+# 远程拉取代码
+git pull origin master
+
 
